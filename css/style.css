@@ -1,0 +1,135 @@
+/* montserat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* utility start */
+.btn-sub {
+    background-color: #013F7E;
+    border-radius: 20px;
+    padding: 10px 24px !important;
+    font-size: 16px;
+    color: #fff !important;
+}
+/* utility end */
+.header {
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.navbar {
+    padding: 10px 20px;
+}
+.navbar .fa-bars{
+    color: #fff !important;
+    font-size: 24px;
+}
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+.navbar-brand img{
+    width: 220px !important;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #fff !important;
+}
+/* welcome section start */
+.welcome {
+    padding: 50px 150px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgb(0, 0, 0,0.2);
+    border-radius: 6px;
+}
+.welcome h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    color: #333;
+}
+/* welcome section end */
+/* yoga section start */
+.yoga {
+    margin-top: 125px;
+    margin-bottom: 50px;
+}
+.yoga .yoga-description h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: justify;
+}
+.yoga .yoga-description p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+/* yoga section end */
+/* video sectoin start */
+.video {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.video .video-text {
+    margin-top: 40px;
+}
+.video .video-text h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* video sectoin end */
+/* service sectoin start */
+.service {
+    padding: 80px 0;
+    background-color: #efefef;
+}
+.service .service-text {
+    text-align: justify;
+}
+.service .service-text h2 {
+    font-weight: 600;
+    font-size: 25px;
+}
+/* service sectoin end */
+/* feature section start */
+.feature {
+    background: linear-gradient( rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/feature-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 40px;
+}
+.feature .feature-img {
+    padding: 80px 0;
+}
+.feature .feature-all{
+    padding-top: 80px
+}
+.feature .feature-box {
+    margin-bottom: 25px;
+}
+.feature .feature-icon i {
+    color: #fff;
+    font-size: 45px;
+    margin-top: 5px;
+
+}
+.feature .feature-text h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.feature .feature-text p{
+    font-size: 14px;
+}
+/* feature section end */

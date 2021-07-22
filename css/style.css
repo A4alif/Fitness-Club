@@ -182,15 +182,17 @@ body {
 /* testimonials end */
 /* newsletter start */
 .newsletter {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    transform: translateY(65px);
 }
 .subscribe {
     background-color: #013F7E;
     padding: 50px 20px;
     box-shadow: 0 0 20px 7px rgb(0, 0, 0,0.2);
     border-radius: 10px;
+   
 }
+
 .subscribe-text h2 {
     font-size: 30px;
     font-weight: 600;
@@ -228,6 +230,7 @@ body {
 .footer{
     background-color: #efefef;
     padding: 100px;
+    z-index: 10;
 }
 
 .footer-1 img {

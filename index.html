@@ -11,7 +11,7 @@
     <!-- custom css -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body id="home">
    <header class="header">
        <!-- nav menu start -->
        <nav class="navbar  navbar-light ">
@@ -23,19 +23,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav text-end ">
               <li class="nav-item">
-                <a class="nav-link  " aria-current="page" href="#">Home</a>
+                <a class="nav-link  " aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#about">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#service">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#feature">Feature</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
               
             </ul>
@@ -59,7 +59,7 @@
     </section>
     <!-- welcome section end -->
     <!-- yoga section start -->
-    <section class="yoga">
+    <section class="yoga" id="about">
       <div class="container">
         <div class="row align-items-center ">
           <div class="col-md-6">
@@ -97,7 +97,7 @@
     </section>
     <!-- video secton end -->
     <!-- service sectin start -->
-    <section class="service">
+    <section class="service" id="service">
       <div class="container">
         <div class="row">
           <div class="col-md-4 text-center px-4">
@@ -126,7 +126,7 @@
     </section>
     <!-- service sectin end -->
     <!-- feature section start -->
-    <section class="feature">
+    <section class="feature" id="feature">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -167,9 +167,128 @@
       </div>
     </section>
     <!-- feature section end -->
+    <!-- testimonials section start -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="testimonial-heading text-center">
+          <h2>Meet Our Users</h2>
+        <p class="text-capitalize">we provided high quality website for your business solution</p>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="review">
+              <div class="user-text">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste beatae nostrum, ullam consectetur aliquam voluptatibus? <br> <i class="fab fa-twitter"></i> <small> @Tushar Khan</small></p>
+              </div>
+              <div class="user-img">
+                <img src="./img/user1.jpg" class=" img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="review">
+              <div class="user-text">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste beatae nostrum, ullam consectetur aliquam voluptatibus? <br> <i class="fab fa-twitter"></i> <small> @Farhan Khan</small></p>
+              </div>
+              <div class="user-img">
+                <img src="./img/user2.jpg" class=" img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="review">
+              <div class="user-text">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste beatae nostrum, ullam consectetur aliquam voluptatibus? <br> <i class="fab fa-twitter"></i> <small> @Tasbiul Khan</small></p>
+              </div>
+              <div class="user-img">
+                <img src="./img/user3.jpg" class=" img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <!-- testimonials section end -->
+    <!-- news letter start -->
+    <section class="newsletter">
+      <div class="container ">
+        <div class="subscribe">
+          <div class="subscribe-text text-center text-white">
+            <h2>Join For Free Trial Now!</h2>
+            <p>Subscribe Our Newsletter and Get 30 Days Free Trial</p>
+          </div>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- news letter end -->
    </main>
-   <footer class="footer">
-
+   <footer class="footer" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+         <div class="footer-1">
+          <img src="./img/logo.png" class=" img-fluid" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam autem voluptates labore quae assumenda, at nemo dolorem corporis vel?</p>
+         </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-2">
+            <h3>Features</h3>
+            <p>Certified Trainers</p>
+            <p>Free Consultation</p>
+            <p>Flexible Time</p>
+            <p>30 Days Free Trial</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-3">
+            <h3>Quick Contact</h3>
+            <div class="details">
+              <div class="info d-flex">
+                <i class="fas fa-phone-alt"></i>
+                <p>+88 0184067887</p>
+              </div>
+              <div class="info d-flex">
+                <i class="fas fa-home"></i>
+                <p>Bashundhara R/A, Dhaka</p>
+              </div>
+              <div class="info d-flex">
+                <i class="fas fa-envelope"></i>
+                <p>alifshah@gmail.com</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-3">
+            <h3>Follow Us</h3>
+            <div class="details">
+              <div class="info d-flex">
+                <i class="fab fa-facebook-f"></i>
+                <p>Facebook</p>
+              </div>
+              <div class="info d-flex">
+                <i class="fab fa-twitter"></i>
+                <p>Twitter</p>
+              </div>
+              <div class="info d-flex">
+                <i class="fab fa-instagram"></i>
+                <p>Instagram</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p class=" footer-bottom text-center mt-5">Made with <i class="far fa-heart"></i> & All Rights Reserved By Alif Hasan Shah</p>
+    </div>
    </footer>
 
     <!-- bootstrap js -->
